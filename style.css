@@ -4,7 +4,7 @@ body {
 
 
 .btn a {
-    background-color: #c06b9561;
+    background-color: #fa1186be;
     height: 37px;
     width: 181px;
     border-radius: 10px;
@@ -55,5 +55,33 @@ form {
     .second-page-image img {
         width: 50px;
 
+    }
+}
+
+
+
+/* third page  */
+
+.form-check-label img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.row :hover {
+    background-color: rgb(247, 243, 243);
+    border-radius: 20px;
+
+}
+
+.finish {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:555px) {
+    .row {
+        flex-direction: column;
     }
 }
