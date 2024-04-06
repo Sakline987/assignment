@@ -68,11 +68,7 @@ form {
     object-fit: cover;
 }
 
-.row :hover {
-    background-color: rgb(247, 243, 243);
-    border-radius: 20px;
 
-}
 
 .finish {
     display: flex;
@@ -84,4 +80,53 @@ form {
     .row {
         flex-direction: column;
     }
+}
+
+.middle-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.finished {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -50px;
+}
+
+.ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball p {
+    margin-top: 17px;
+    margin-right: -28px;
+}
+
+.col-4 p a {
+    color: rgb(109, 103, 98);
+    font-size: 14px;
+}
+
+.col-4 p {
+    color: black;
+
+}
+
+@media (max-width:553px) {
+    .col-4 {
+        width: 100%;
+    }
+
+    .finished {
+
+        align-items: center;
+        flex-direction: column;
+    }
+
 }
