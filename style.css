@@ -2,6 +2,19 @@ body {
     border: none;
 }
 
+/* secondpage style  */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.img-upload-btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+
 
 .btn a {
     background-color: #fa1186be;
@@ -45,8 +58,8 @@ form {
 }
 
 .second-page-profile {
-    height: 147px;
-    width: 200px;
+    height: 120px;
+    width: 132px;
     background-color: rgb(30 21 21 / 12%);
     border-radius: 50%;
 }
@@ -55,6 +68,11 @@ form {
     .second-page-image img {
         width: 50px;
 
+    }
+
+    .img-wrapper {
+
+        margin-top: 90px;
     }
 }
 
